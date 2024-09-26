@@ -11,7 +11,6 @@
 // 4.i In the setup function, instead of instantiating only 1 Square object we need 10. Therefor, use a for-loop to create the instances. In the call to the constructor, give each instance unique position values, so that they will not be placed at exactly the same spot (experimentation is encouraged).
 // 4.j Add the instances to the squares array. You may do this after instantiation or simultaneously.
 
-
 // 4.b - An array that will be holding 10 Square instances
 Square[] holdingTenSquares = new Square[10];
 
