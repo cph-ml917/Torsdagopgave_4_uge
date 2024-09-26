@@ -25,6 +25,7 @@ void setup() {
   }
 }
 
+
 // 6.c
 void draw() {
   for (int i = 0; i < board.length; i++) {
