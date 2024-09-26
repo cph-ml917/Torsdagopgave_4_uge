@@ -16,7 +16,7 @@
  - 2. Run DMC  : "Walk This Way"
  */
 
-println("Here is the theme songs from 5 different TV series: \n");
+println("Here is 5 artists who made a theme song for a TV series: \n");
 String[] selectedArtists = {"Nick Cave", "Cristobal Tapia de Veer", "Nicholas Britell", "SOFI TUKKER ft. Charlie Barker", "Mick Jagger"};
 String[] themeSong = {"Red Right Hand", "Aloha! (Season 1) & Renaissance (Season 2)", "Succession (Main Title Theme)", "Good Time Girl", "Strange Game"};
 String[] TVSeries = {"Peaky Blinders", "The White Lotus", "Succession", "The New Pope", "Slow Horses"};
@@ -25,6 +25,7 @@ for (int i = 0; i < selectedArtists.length; i++) {
   println(i+1 + ". " + selectedArtists[i]);
 }
 
+println("\nHere is the theme songs from 5 different TV series:");
 println("");
 for (int i = 0; i < selectedArtists.length; i++) {
   println(i+1 + ". " + selectedArtists[i] + ": " + '"' + themeSong[i] + '"' + ", " + TVSeries[i] );
